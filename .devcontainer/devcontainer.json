@@ -1,0 +1,15 @@
+{
+  "name": "arm-devcontainer-test",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cmake-tools",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "jeff-hykin.better-cpp-syntax"
+      ]
+    }
+  }
+}
